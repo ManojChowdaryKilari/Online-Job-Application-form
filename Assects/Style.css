@@ -1,0 +1,68 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+.nav{
+    background-color: white;
+    z-index: 9;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.5);
+   
+}
+.nav-top{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo {
+    float: left;
+    width:50%;
+  
+   
+}
+.logo a{
+    text-decoration: none;
+}
+.logo  img{
+    padding: 8px;
+    margin-left: 10px;
+  
+}
+.Name{
+    position: relative;
+    bottom: 40px;
+  font-size: medium;
+color:maroon;
+font-weight: bold;
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+ 
+   
+}
+.Nav-side{
+    float: right;
+    width: 45%;
+    margin-top: 40px;
+}
+
+.Nav-side a{
+text-decoration: none;
+margin-right: 10px;
+margin-left: 22px;
+padding-top: 20px;
+padding-left: 15px;
+color: rgb(37,0,19);
+font-weight: bold;
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+font-size: 15px;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+}
+.Nav-side a:hover{
+    color: crimson;
+    transition:  all 1s ease;
+}
